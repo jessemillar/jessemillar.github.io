@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+Computer science student at BYU. Video game design and longboarding are awesome. Oh, and I can't get fat.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jesse@jessemillar.com](mailto:jesse@jessemillar.com)
