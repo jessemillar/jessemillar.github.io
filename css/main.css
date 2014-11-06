@@ -1,8 +1,1 @@
-.pixely {
-  image-rendering:optimizeSpeed;              /* Legal fallback                 */
-  image-rendering:-moz-crisp-edges;           /* Firefox                        */
-  image-rendering:-o-crisp-edges;             /* Opera                          */
-  image-rendering:-webkit-optimize-contrast;  /* Chrome (and eventually Safari) */
-  image-rendering:crisp-edges;                /* CSS3 Proposed                  */
-  -ms-interpolation-mode:bicubic;             /* IE8+                           */
-}
+/* Put stuff in here eventually */
