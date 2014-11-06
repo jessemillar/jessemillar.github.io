@@ -3,6 +3,8 @@ layout: page
 title: Lorina
 ---
 
+![Lorina](http://www.jessemillar.com/images/lorina/logo.png)
+
 Projects?  Yeah.  I've got projects.  Not too long ago, I decided I [needed](http://youtu.be/MejbOFk7H6c) a way to quickly make HTML5 games. HTML5 is **cool**. JavaScript is **cool**. Game engines are **cool**. There had to be a **cool** JavaScript game engine for HTML5, right? Turns out there are plenty of **cool** JavaScript game engines, but I didn't really like any of them.
 
 No, no, it's not you. It's me.
