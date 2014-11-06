@@ -112,11 +112,6 @@ a.sidebar-nav-item:focus {
     top: 1rem;
     left:   1rem;
   }
-
-  .sidebar-sticky img {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 
