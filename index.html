@@ -14,7 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
 
-    {{ post.content }}
+    {{ post.content | truncatewords: 150}} <a href="{{ post.url }}">(continue reading)</a>
   </div>
   {% endfor %}
 </div>
