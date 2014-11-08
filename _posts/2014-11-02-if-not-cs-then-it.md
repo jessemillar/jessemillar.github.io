@@ -3,6 +3,8 @@ layout: post
 title: if (major != 'CS') {major = 'IT'} 
 ---
 
+![header](http://www.jessemillar.com/images/posts/if-not-cs-then-it/header.png)
+
 This one's more of a thought dump than a post.  Honestly, I don't know what I'm talking about.  Let's just get that out of the way real quick.  I'm a newly-married college kid who's holding down his first real job while trying to manage a computer science degree.  I'm kinda wondering at this point if I want that degree.
 
 There are a number of thoughts I've been having lately.  I'm having these thoughts because of two computer theory classes I'm taking.  I just can't seem to understand finite state machines, context-free grammars, and/or Turing machines.  Honestly, I feel pretty stupid.  It seems like most of the people in my classes understand what's going on and I just don't.  Thankfully, I have a couple friends that are also struggling (to varying degrees), but that simply serves to complicate my already-muddled thoughts.
