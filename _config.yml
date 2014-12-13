@@ -9,8 +9,8 @@ relative_permalinks: true
 
 # Setup
 title:               Jesse Millar
-tagline:             'A super fly guy'
-description:         'Like, wayyyyyyy super fly'
+tagline:             'Programmatic malarkey'
+description:         'Here be dragons.'
 url:                 http://www.jessemillar.com/
 baseurl:             /
 paginate:            5
