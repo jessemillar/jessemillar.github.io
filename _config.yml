@@ -9,7 +9,7 @@ relative_permalinks: true
 
 # Setup
 title:               Jesse Millar
-tagline:             'Programmatic malarkey'
+tagline:             'programmatic malarkey'
 description:         'Here be dragons.'
 url:                 http://www.jessemillar.com/
 baseurl:             /
