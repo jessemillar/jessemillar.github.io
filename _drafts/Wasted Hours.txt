@@ -1,0 +1,25 @@
+Experimenting
+
+I waste a lot of time. You waste a lot of time. The world is full of people who waste time.
+
+Now, I'm not one of those crazies who thinks that we'll solve world hunger/cure cancer/etc. if we all stop wasting time, but I do think that I'll be happier with my life if I get a handle on my personal clock.
+
+The design is far from finished. I want something that'll be stupid easy to use, accomplish one purpose, and not get in the way of me wasting time. I don't want a ticking second-counter on my wrist making me feel guilty about wasting time, I just want something that'll keep track of how much time I waste so I can see a tally at the end of the day.
+
+Graphs are nice and seeing things as a graph throughout the day would be a helpful feature.
+
+For this experiment to function properly, I need to lay down some ground rules:
+
+1) Wasted time will be tracked on a day-to-day basis. I log the wasted time at the end of each day.
+1) Is walking "wasted time"
+2) How lenient am I?
+
+And, of course, this project is open-source and available for free download off the Pebble Store.
+
+I still think it's ironic that it's called a "store" when I can't use it to make money (fact check this).
+
+Notes:
+	Needed features:
+		- Ability to reset time for the day
+		- Ability to modify logged time if I forget to stop logging?
+		- Reminder to log time...?
