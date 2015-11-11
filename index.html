@@ -1,10 +1,80 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <META http-equiv="refresh" content="0;URL=http://www.github.com/jessemillar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <title>Jesse Millar</title>
+    <style>
+    html,
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        color: #D95E40;
+        text-align: center;
+    }
+    
+    .name {
+       color: #ae4b33; 
+       text-decoration: none;
+       border: none;
+    }
+
+    .name:hover {
+       color: #ae4b33; 
+       text-decoration: none;
+       border-bottom: solid 3px #ae4b33;
+    }
+    
+    a {
+        color: #ae4b33;
+        text-decoration: none;
+        border-bottom: solid 3px #ae4b33;
+    }
+    
+    a:hover {
+        color: #D95E40;
+        text-decoration: none;
+        border-bottom: solid 3px #D95E40;
+    }
+    
+    .vertical-center {
+        min-height: 100%;
+        /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh;
+        /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+    }
+    
+    .links {
+        font-size: 1.5em;
+    }
+    </style>
 </head>
 
 <body>
+    <div class="vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <img class="img-responsive" src="avatar.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    My name is <a href="https://twitter.com/jessemillar" class="name">Jesse Millar</a> and I
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 links">
+                    <a href="http://art.jessemillar.com/">art</a> &amp; <a href="http://code.jessemillar.com/">code</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
