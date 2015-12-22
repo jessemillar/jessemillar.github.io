@@ -27,7 +27,6 @@ body {
     opacity: 0.25;
     margin: 0;
     padding: 0;
-    -webkit-overflow-scrolling: touch;
 }
 
 .vertical-center {
