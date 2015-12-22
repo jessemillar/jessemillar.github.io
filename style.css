@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+.kill-the-scroll {
+    -webkit-overflow-scrolling: touch;
+}
+
 .background-image {
     position: absolute;
     left: 0;
