@@ -31,6 +31,7 @@ body {
 
 .vertical-center {
     min-height: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -57,7 +58,9 @@ a:visited {
 
 a:hover,
 a:link:hover {
+    color: #346b50;
     color: rgba(52, 107, 80, 0.701961);
     text-decoration: none;
+    border-bottom: solid 3px #346b50;
     border-bottom: solid 3px rgba(52, 107, 80, 0.701961);
 }
