@@ -8,19 +8,19 @@ body {
     overflow: hidden;
 }
 
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .avatar {
     width: 250px;
     height: 250px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
     border-radius: 125px;
-}
-
-.vertical-center {
-    min-height: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
 }
 
 .name {
