@@ -1,9 +1,9 @@
 html,
 body {
-    background-color: #DDDDDD;
+    background-color: #7ecbc4;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    text-shadow: 0 -1px rgba(1, 1, 1, 0.1);
+    text-shadow: 0 -1px rgba(1, 1, 1, 0.075);
 }
 
 .container {
@@ -34,10 +34,10 @@ body {
     top: 79px;
     width: 130px;
     height: 130px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    box-shadow: 0 -2px rgba(1, 1, 1, 0.1);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 0 -1px rgba(1, 1, 1, 0.075);
 }
 
 .name {
