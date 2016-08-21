@@ -34,11 +34,12 @@ html {
 
 .index {
     text-align: center;
+    width     : 20px;
 }
 
 .index-letter {
     color    : #FF4136;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .top-left-index {
