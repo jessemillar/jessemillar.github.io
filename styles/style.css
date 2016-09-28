@@ -60,7 +60,7 @@ html {
 .name {
     position       : absolute;
     left           : 0;
-    top            : 135px;
+    top            : 115px;
     width          : 100%;
     height         : auto;
     color          : #111111;
@@ -78,7 +78,7 @@ html {
 }
 
 .divider-name {
-    top: 188px;
+    top: 168px;
 }
 
 .link {
@@ -86,10 +86,10 @@ html {
     font-size: 22px;
 }
 
-.link-art {
+.link-code {
     position: absolute;
     left    : 0;
-    top     : 210px;
+    top     : 190px;
     width   : 100%;
     height  : auto;
 }
@@ -97,30 +97,43 @@ html {
 .ampersand {
     position  : absolute;
     left      : 0;
-    top       : 244px;
+    top       : 224px;
     width     : 100%;
     height    : auto;
     text-align: center;
     font-size : 20px;
 }
 
-.link-code {
+.link-art {
     position: absolute;
     left    : 0;
-    top     : 272px;
+    top     : 252px;
     width   : 100%;
     height  : auto;
 }
 
 .divider-site {
-    top: 325px;
+    top: 305px;
 }
 
 .link-site {
     position : absolute;
     left     : 0;
-    top      : 350px;
+    top      : 330px;
     width    : 100%;
     height   : auto;
     font-size: 15px;
+}
+
+.link-linkedin {
+    position: absolute;
+    left    : 0;
+    top     : 370px;
+    width   : 100%;
+    height  : auto;
+}
+
+.image-linkedin {
+    width : 35px;
+    height: 35px;
 }
