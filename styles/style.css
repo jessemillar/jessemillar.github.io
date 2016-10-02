@@ -2,6 +2,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     color      : #ffffff;
     text-align : center;
+    font-size  : 70px;
 }
 
 body {
@@ -15,13 +16,12 @@ a:hover {
 }
 
 .name {
-    position   : absolute;
-    left       : 0;
-    bottom     : 50%;
-    width      : 100%;
-    height     : auto;
-    font-size  : 70px;
-    font-weight: bold;
+    position : absolute;
+    left     : 0;
+    bottom   : 50%;
+    width    : 100%;
+    height   : auto;
+    font-size: 1em;
 }
 
 .tagline {
@@ -30,7 +30,7 @@ a:hover {
     top      : 50%;
     width    : 100%;
     height   : auto;
-    font-size: 20px;
+    font-size: 0.3em;
 }
 
 .navigation {
@@ -39,7 +39,7 @@ a:hover {
     bottom       : 0;
     width        : 100%;
     height       : auto;
-    font-size    : 20px;
+    font-size    : 0.3em;
     margin-bottom: 30px;
 }
 
@@ -56,7 +56,7 @@ a:hover {
 
 .navigation ul li a {
     text-decoration: none;
-    padding        : 0 20px;
+    padding        : 0 0.5em;
 }
 
 .video-overlay {
@@ -95,4 +95,9 @@ a:hover {
     -webkit-transition: 1s opacity;
     transition        : 1s opacity;
     z-index           : -100;
+}
+@media (max-width: 500px) {
+    html {
+        font-size: 50px;
+    }
 }
