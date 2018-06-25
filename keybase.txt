@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jessemillar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jessemillar.com
+  * I am jessemillar (https://keybase.io/jessemillar) on keybase.
+  * I have a public key ASAJUMvkHSU0n04UCA5FJ4DAL-5l9JvWHpSYgygFO3vvqAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200950cbe41d25349f4e14080e452780c02fee65f49bd61e94988328053b7befa80a",
+      "host": "keybase.io",
+      "kid": "01200950cbe41d25349f4e14080e452780c02fee65f49bd61e94988328053b7befa80a",
+      "uid": "ac0e42365e38b24ecc7348bc0c3b4019",
+      "username": "jessemillar"
+    },
+    "merkle_root": {
+      "ctime": 1529945502,
+      "hash": "3df7df82ffe2f2455d3cca6fb26660c0609cb27f7ab2e198e7a32d4b5c7b50e1006a367c8363bd7ad36018e1331529859e9a94c18efa07d88d57cef6772022e6",
+      "hash_meta": "899b5f34a77a1603bbdd29737b653a92437dcc146bee7cd683b5294b1dd6145d",
+      "seqno": 3139889
+    },
+    "service": {
+      "entropy": "i2DprV2Y6JmydfPXB9TbJzI2",
+      "hostname": "jessemillar.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.0"
+  },
+  "ctime": 1529945518,
+  "expire_in": 504576000,
+  "prev": "5fdfa85971989dd4eca708efcc705dfbe29a539baabef77f8e70169732840f07",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCVDL5B0lNJ9OFAgORSeAwC/uZfSb1h6UmIMoBTt776gKp3BheWxvYWTESpcCBsQgX9+oWXGYndTspwjvzHBd++KaU5uqvvd/jnAWlzKEDwfEIPSNHr7t5uQBnfXZhz00eANSHJs3kcRPBxCesnANeoCbAgHCo3NpZ8RAa6T4Tcb+an2FFltFNsDjulE6VhGSCMMaoeHCzhgHnb965IeKFonXLyE4jLlcIumVlJHGNuAE1EygVtwE6zG4BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMCga34+xioHCPZIbV3IwVPgh1Rb/kSy9DXfeoJ3CEL4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jessemillar
+
+==================================================================
