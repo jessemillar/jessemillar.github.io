@@ -40,6 +40,8 @@
 				if (latestTrack['@attr'] && latestTrack['@attr'].nowplaying) {
 					$(".now-playing").html("\""+latestTrack.name + "\" by " + latestTrack.artist['#text']);
 					$(".alert").show();
+				} else {
+					$(".alert").hide();
 				}
 			})
 		}
