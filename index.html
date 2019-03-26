@@ -4,12 +4,18 @@
 <head>
     <title>Jesse Millar</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/jpeg" href="https://s.gravatar.com/avatar/3b035bb42f7d63b407e996171bb53e2e?s=180" />
     <link rel="stylesheet" href="styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+	<div class="alert" style="display: none;">
+		<i class="fas fa-headphones"></i> Currently listening to <a class="now-playing" href="https://open.spotify.com/user/jessemillar?si=tZMXnGk7RJqHP9K0Go4lJQ"></a>
+	</div>
+
     <div class="tagline">Husband, software engineer for Walmart, game dev, skateboarder, artist, and card magician. Can't get fat.</div>
     <div class="name">Jesse Millar</div>
     <div class="navigation">
@@ -24,10 +30,20 @@
         </ul>
     </div>
     <div class="video-overlay"></div>
-    <video autoplay loop muted webkit-playsinline playsinline class="video-background blurred"><source src="videos/compilation.mp4" type="video/mp4"></video>
+<video autoplay loop muted webkit-playsinline playsinline class="video-background blurred"><source src="videos/compilation.mp4" type="video/mp4"></video>
 </body>
 
 <script>
+		$( document ).ready(function() {
+			$.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jessemillar&api_key=a1b4589ad9068f51b43d7291609c13dc&format=json", function(data) {
+				var latestTrack = data.recenttracks.track[0];
+				if (latestTrack['@attr'] && latestTrack['@attr'].nowplaying) {
+					$(".now-playing").html("\""+latestTrack.name + "\" by " + latestTrack.artist['#text']);
+					$(".alert").show();
+				}
+			});
+		});
+
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function() {
