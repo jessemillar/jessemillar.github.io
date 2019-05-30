@@ -34,7 +34,7 @@
 
 <script>
 		function getTrack() {
-			$.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jessemillar&api_key=a1b4589ad9068f51b43d7291609c13dc&format=json&callback=?", function(data) {
+			$.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jessemillar&api_key=a1b4589ad9068f51b43d7291609c13dc&callback=?", function(data) {
 				var latestTrack = data.recenttracks.track[0];
 				if (latestTrack['@attr'] && latestTrack['@attr'].nowplaying) {
 					$(".now-playing").html("\""+latestTrack.name + "\" by " + latestTrack.artist['#text']);
