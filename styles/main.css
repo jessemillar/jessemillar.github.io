@@ -117,7 +117,7 @@ a:hover {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url('../images/compilation.jpg') no-repeat;
+  background: url('/images/compilation.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   -o-transition: 1s opacity;
