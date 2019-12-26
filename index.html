@@ -1,72 +1,9 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>Jesse Millar</title>
-    <link rel="shortcut icon" type="image/jpeg" href="https://s.gravatar.com/avatar/3b035bb42f7d63b407e996171bb53e2e?s=180" />
-    <link rel="stylesheet" href="/styles/main.css">
-		<script src="/scripts/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-	<div class="alert" style="display: none;">
-		Jesse is currently listening to <a class="now-playing" href="https://open.spotify.com/user/jessemillar?si=tZMXnGk7RJqHP9K0Go4lJQ"></a>
-	</div>
-
-    <div class="tagline">Husband, software engineer for Walmart, game dev, skateboarder, artist, and card magician. Can't get fat.</div>
-    <div class="name">Jesse Millar</div>
-    <div class="navigation">
-        <ul>
-            <li><a href="https://github.com/jessemillar">GitHub</a></li>
-            <li><a href="https://twitter.com/jessemillar">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/jessemillar">LinkedIn</a></li>
-            <li><a href="https://jessemillar.com/devlog">Devlog</a></li>
-            <li><a href="https://jessemillar.itch.io/">itch.io</a></li>
-            <li><a href="https://dribbble.com/jessemillar">Dribbble</a></li>
-            <li><a href="https://jessemillar.tumblr.com/">Tumblr</a></li>
-        </ul>
-    </div>
-    <div class="video-overlay"></div>
-<video autoplay loop muted webkit-playsinline playsinline class="video-background blurred"><source src="/videos/final-silent.mp4" type="video/mp4"></video>
-</body>
-
-<script>
-		function getTrack() {
-			$.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=jessemillar&api_key=a1b4589ad9068f51b43d7291609c13dc&format=json", function(data) {
-				var latestTrack = data.recenttracks.track[0];
-				if (latestTrack['@attr'] && latestTrack['@attr'].nowplaying) {
-					$(".now-playing").html("\""+latestTrack.name + "\" by " + latestTrack.artist['#text']);
-					$(".alert").show();
-				} else {
-					$(".alert").hide();
-				}
-			})
-		}
-
-		$( document ).ready(function() {
-			getTrack();
-
-			window.setInterval(function(){
-				getTrack();
-			}, 10000);
-		});
-
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-56479946-1', 'auto');
-    ga('send', 'pageview');
-</script>
-
+  <head>
+    <meta http-equiv="Refresh" content="7; url=//www.jessemillar.com" />
+  </head>
+  <body>
+    <p>Redirecting to <a href="//www.jessemillar.com/">jessemillar.com</a>.</p>
+  </body>
 </html>
