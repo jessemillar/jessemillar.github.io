@@ -1,0 +1,32 @@
+- Watch Disney Food Blog (https://youtube.com/c/DFBGuide)
+- Disney World is HUGE
+	- Probably focus on one park a day
+- Stay in a Disney resort
+	- Easier transportation
+		- Skyliner
+		- Busses
+		- Boats
+		- Special entrances for some resorts
+	- Magic Bands
+		- Payment with a wrist tap
+	- Extra Magic Hours
+		- They might not exist depending on COVID
+- Buy tickets straight from disney.com
+	- Potential discounts if you bundle tickets and a resort reservation at the same time
+- Download the My Disney Experience app
+	- !!! MOBILE ORDER !!!
+	- Play Disney app is fun
+- There are plenty of things to do that aren't cliche Disney
+	- Water parks in the middle of the day
+	- Events (usually free) at the resorts
+	- Food is amazing
+	- Downtown Disney
+- Budgeting
+	- Dining Plan
+		- Watch Disney Food Blog for details
+	- Might be worth it for one person to buy an Annual Pass
+		- $1,195
+		- Free parking
+		- 20% off dining and merch
+		- Built in park hopper ticket
+		- Photo Pass
